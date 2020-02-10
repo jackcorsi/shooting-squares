@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>Shooting Squares</title>
+	<link rel = "icon" href = "favicon.png">
+	<style>
+		*{padding: 0; margin: 0;}
+		canvas {background: #eee; display: block; margin: 0 auto;}
+	</style>
+</head>
+
+<body>
+
+<p id = "debugPara"></p>
+
+<canvas id = "gameCanvas" width = "480" height = "320"></canvas>
+
+<p id = "gameHud">Still loading, or just broken?</p>
+
+<br>
+<p>
+	Instructions: <br>
+	Move using the left and right arrow keys. Shoot the blue squares (SPACEBAR) to stop them from reaching the bottom.
+	Shoot the green squares to gain lives. Avoid shooting the red squares or you will lose a life.
+	Press P to pause the game and R to reset. From the pause screen you can purchase temporary power-ups and bonuses.
+</p>
+
+<br>
+
+<script src = "scripts/cvars.js">			</script>
+<script src = "scripts/globals.js">			</script>
+<script src = "scripts/worldObjects.js">	</script>
+<script src = "scripts/pause.js">			</script>
+<script src = "scripts/main.js">			</script> 
+
+</body>
+</html>
